@@ -45,9 +45,21 @@ cd breakfree
 
 ```
 
+--> Create a virtual environment:
+```bash
+python -m venv env 
+
+```
+
 --> Activate the virtual environment(You need to activate the virtual environment each time you restart the IDE) :
 ```bash
 env\scripts\activate
+
+```
+
+--> Install the requirements :
+```bash
+python -m pip install -r requirements.txt
 
 ```
  
