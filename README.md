@@ -26,14 +26,14 @@ This is a Habit Tracker website where you can add friends, make room and count d
 
 <p>
 This is a django full stack app with no seperate frontend and now it's deployed on https://breakfree-production-c468.up.railway.app/ 
-The base folder has the enter app in it. it's the only app in this project. 
+The base folder has the entire app in it. it's the only app in this project. 
 Its dockerized and and has no additional containers, I have used the default sqlite as database.
 It uses gunicorn for webserver but i used whitenoise to serve static files instead of nginx to reduce complexity and quick deployment 
 </p>
 
 <p>
 As of right now I am working to convert this MVT project into a REST API using DRF in this repo https://github.com/rajatbhai980/breakfree-api-
-It has the same code structure but I am using postgresql on this on i will use more backend tools on this one and it will have a more complex environment 
+It has the same code structure but I am using postgresql on this project and i will use more backend tools on this one and it will have a more complex environment 
 compared to this project according the apps needs.</p>
 
 ### Cloning the repository
