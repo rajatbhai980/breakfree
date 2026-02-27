@@ -24,8 +24,12 @@ This is a Habit Tracker website where you can add friends, make room and count d
     <img src="Rimages/room.png" style="width: 80%; height: auto; display: block; margin: 0 auto;">
 </div>
 
---> This is a django full stack app with no seperate frontend and now its deployed on https://breakfree-production-c468.up.railway.app/ 
---> Its dockerized and and has no additional containers, I have used the default sqlite. It uses gunicorn for webserver but i used whitenoise to serve static files instead of nginx to reduce complexity and deploy quickly
+<p>
+This is a django full stack app with no seperate frontend and now it's deployed on https://breakfree-production-c468.up.railway.app/ 
+The base folder has the enter app in it. it's the only app in this project. 
+Its dockerized and and has no additional containers, I have used the default sqlite as database.
+It uses gunicorn for webserver but i used whitenoise to serve static files instead of nginx to reduce complexity and quick deployment 
+</p>
 
 ### Cloning the repository
 
@@ -41,7 +45,7 @@ cd breakfree
 
 ```
 
---> Activate the virtual environment(You need to activate the virtual environment each time you restart the pc) :
+--> Activate the virtual environment(You need to activate the virtual environment each time you restart the IDE) :
 ```bash
 env\scripts\activate
 
