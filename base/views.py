@@ -97,8 +97,8 @@ class Register(View):
 
 class Profile(View):
     def get(self, request, pk, *args, **kwargs):
-        friend_count = Friend.objects.select_related('friend2').filter(friend1 = request.user).count()
         user = User.objects.get(pk=pk) 
+        friend_count = Friend.objects.select_related('friend2').filter(friend1 = user).count()
         friends = user.friendModel.filter(
             friend2 = request.user
         ).exists()
